@@ -1,12 +1,78 @@
+/* Reset & Base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f;
+    color: #0e0e0e;
+    line-height: 1.7;
 }
+/* Header  */
 header{
+    background:linear-gradient(135deg,#1a1a2e,#16213e);
     text-align: center;
-
+    padding: 60px 20px;
 }
-section {
-    margin-top: 30px;
+header h1{
+    font-size: 4rem;
+    color: #00d4ff;
+    letter-spacing: 2px;
+}
+header p{
+    font-size: 1.1rem;
+    color:#aaaaaa;
+    margin-top: 8px;
+}
+/* Sections  */
+section{
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    border-left: 4px solid #00d4ff;
+}
+section h2{
+    font-size: 1.5rem;
+    color:#00d4ff;
+    margin-bottom: 15px;
+}
+section p,section li{
+    color: #cccccc;
+    font-size: 1rem;
+}
+/* Skills Set  */
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+ul li{
+    background-color: #00d4ff20;
+    color:#00d4ff;
+    padding:6px 16px;
+    border-radius: 20px;
+    border: 1px #00d4ff55;
+    font-size: 0.9rem;
+}
+/* Links  */
+a{
+    color: #00d4ff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* Fotter  */
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #555;
+    font-size: 0.85rem;
+    margin-top: 40px;
 }
