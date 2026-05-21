@@ -76,3 +76,26 @@ footer{
     font-size: 0.85rem;
     margin-top: 40px;
 }
+/* Light mode */
+body{
+    background-color: #f8fafc;
+    color:#0f172a;
+}
+section{
+    background-color: #e5e7eb;
+}
+h1,h2{
+    color:#0284c7
+}
+/* Dark Mode */
+body.dark-mode{
+    background-color: #0f172a;
+    color:#e5e7eb
+}
+body.dark-mode section {
+    background-color: #1e293b;
+}
+body.dark-mode h1,
+body.dark-mode h2{
+    color:#22d3ee;
+}
